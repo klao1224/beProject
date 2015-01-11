@@ -1,0 +1,129 @@
+body{
+    max-width: 940px;
+    background: #fff;
+    border-top: 6px solid black;
+    color: #000;
+    margin: 0 auto;
+    font-family: 'Cabin', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.primary-header{
+    margin-bottom: 40px;
+    padding-top: 40px;
+    display: block;
+    position: relative;
+
+}
+
+.primary-header h1{
+    height: 82px;
+    display: block;
+    width: 216px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px!important;
+}
+
+
+.primary-header h2{
+    font-size: 12px;
+    margin: 51px 0 0 20px;
+}
+
+section #feature{
+}
+
+.primary-header #cart{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 23%;
+    padding-top: 20px;
+}
+
+.primary-header #cart p{
+    border-bottom: 1px dotted black;
+    border-top: 1px dotted #000000;
+    padding: 7px 0;
+    margin-top: 5px;
+}
+
+.carousel{
+    position: relative;
+}
+
+#primary-nav{
+    float: left;
+    width: 23%;
+}
+
+.primary-nav ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.nav-pills > li.active > a {
+    background-color: #222222;
+}
+
+.nav-pills > li.hover > a {
+    background-color: cadetblue;
+}
+
+.nav-pills > li > a {
+    color: #000000;
+}
+
+#main_content{
+    float:right;
+    width: 74%;
+}
+
+#main_content section{
+    clear: both;
+}
+
+#main_content section#recent{
+    border-top: 1px dotted #000000;
+   margin-bottom: 20px;
+}
+
+#main_content section#love{
+    margin-top: 8px;
+}
+
+.product{
+    float:left;
+    position: relative;
+    width: 31%;
+}
+
+.product .image{
+    display: block;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.product dl{
+    float: left;
+}
+
+.product dl dd{
+    font-style: italic;
+}
+
+.product span.glyphicon.glyphicon-plus{
+    float:right;
+    margin-right: 5px;
+}
+
+footer{
+    border-top: 2px solid black;
+    overflow: hidden;
+    clear: both;
+    padding: 20px 0 60px;
+}
